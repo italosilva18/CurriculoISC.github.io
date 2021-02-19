@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
@@ -17,8 +18,9 @@
             <div class="collapse navbar-collapse"
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Pagina Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">Curriculo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">Certificados</a></li>
                 </ul>
             </div>
         </div>
@@ -27,9 +29,12 @@
         <section class="portfolio-block block-intro">
             <div class="container">
                 <div class="avatar" style="background: url(&quot;assets/img/Costa.jpg&quot;) center / contain;"></div>
-                <div class="about-me">
-                    <p>Olá!&nbsp;me chamo ITALO sou formado em Análise e Desenvolvimento de Sistemas pela Instituição: Centro Universitário UniRuy Wyden. Me especializando em desenvolvimento web.<br><br><br></p><a class="btn btn-outline-primary" role="button"
-                        href="#" style="color: #e3eded;background: #14c5c5;">Hire me</a></div>
+                <div class="about-me" style="opacity: 1;">
+                    <p>Olá!&nbsp;me chamo ITALO sou formado em Análise e Desenvolvimento de Sistemas pela Instituição: Centro Universitário UniRuy Wyden. Ultimamente estou focando em desenvolvimento web.<br><br><br></p><a class="btn btn-outline-primary"
+                        role="button" href="https://api.whatsapp.com/send?phone=5571991655113&amp;text=Ol%C3%A1%20%C3%8Dtalo%20tudo%20bem%3F%20Encontrei%20seu%20portf%C3%B3lio%20online%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA." style="color: #e3eded;background: #14c5c5;">Contrate-me<br></a>
+                    <a
+                        class="btn btn-outline-primary" role="button" href="cv.html" style="color: #e3eded;background: #14c5c5;">Currículo<br></a>
+                </div>
             </div>
         </section>
         <section class="portfolio-block photography">
@@ -37,14 +42,14 @@
                 <div class="row no-gutters">
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/image4.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" data-bs-hover-animate="pulse" src="assets/img/tech/0001.jpg" loading="auto"></a></div>
                 </div>
             </div>
         </section>
         <section class="portfolio-block call-to-action border-bottom">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
+                    <h3>Gostou do que está vendo? Clique aqui e Veja mais sobre mim&nbsp;<br></h3><button class="btn btn-outline-primary btn-lg" type="button" style="background: #14c5c5;color: rgb(246,248,249);">Curriculo</button></div>
             </div>
         </section>
         <section class="portfolio-block skills">
@@ -110,6 +115,7 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
